@@ -38,7 +38,7 @@ def login(context):
         context.driver.find_element_by_id("kz.homecredit.ibank.debug:id/ovOtpCode").send_keys('0000')
     except NoSuchElementException:
         print('OK: Otp not called')
-    #context.driver.find_element_by_id("kz.homecredit.ibank.debug:id/ovOtpCode").send_keys('0000')
+    
 
 
 
